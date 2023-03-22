@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Criptografia</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div class="main-section">
+            <section class="hero-wrap" style="background-image:
+                url(img/bg_1.jpg);" data-stellar-background-ratio="0.5">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row description align-items-center
+                        justify-content-center">
+                        <div class="col-md-8 text-center">
+                            <div class="text">
+                                <h2>Sistema de Criptografia</h2>
+                                <input style="background-color: rgb(226, 43,211); height: 60px; width: 400px; margin: 30px;
+                                    margin-top: 10px; padding: 10px;"
+                                    type="file" id="fileInput"><br>
+                                <h6 style="color:aliceblue">Escolha o que irá
+                                    fazer com seu arquivo:</h6>
+                                <div class="buttons">
+                                    <button style="height:50px; width: 120px ;background-color: rgb(226, 43,211); color:aliceblue; border: none;" onclick="uploadFile()">Upload</button>
+                                    <button style="height:50px; width: 130px ;background-color:rgb(226, 43,211); color:aliceblue; border: none;" onclick="encrypt()">Critografar</button>
+                                    <button  style="height:50px; width: 130px ;background-color: rgb(226, 43,211); color:aliceblue; border: none;" onclick="decrypt()">Descritografar</button><br>
+                                </div>
+                                <div class="buttons-dowload mt-5">
+                                    <a href="#" download="encrypted.txt"
+                                        id="downloadEncrypted" style="height:80px; margin-right: 20px ; width: 90px ;padding: 10px ; border-radius: 30px; background-color:  rgb(8, 50, 78); color:aliceblue; border: none;" >Download Critografado
+                                        </a> 
+                                    <a href="#" download="decrypted.txt"
+                                        id="downloadDecrypted" style="height:80px; width: 90px ; padding: 10px;background-color: rgb(8, 50, 78); color:aliceblue; border-radius: 30px; border: none;" >Download Descritografado
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </body>
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+                crossorigin="anonymous"></script>
+            <script src="script.js"></script>
+        </html>
